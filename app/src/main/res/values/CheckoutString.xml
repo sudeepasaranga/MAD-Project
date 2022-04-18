@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="Checkoutform_text1"><b>Saman Perera, 772312231  No.23,Dharmapala Mawatha, Matara, South.</b></string>
+    <string name="Checkoutform_text2"><b><u>Edit Info..</u></b></string>
+    <string name="Checkoutform_text3"><b>Bill to the same address</b></string>
+    <string name="Checkoutform_text4"><b><u>Edit</u></b></string>
+    <string name="Checkoutform_text5"><b>Cart Summary</b></string>
+    <string name="Checkoutform_text6"><b>Delivery Fee       Rs 54.00</b></string>
+    <string name="Checkoutform_text7"><b>Total amount       Rs 1200.00</b></string>
+    <string name="Checkoutform_text8"><b>Order By</b></string>
+
+</resources>

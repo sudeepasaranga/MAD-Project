@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2979FF"
+    android:backgroundTint="#8F0C0C"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/cardview_light_background"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/menu_navigation">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="76dp"
+            android:layout_height="53dp"
+            app:srcCompat="@mipmap/b" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3ECF8">
+
+
+        <TextView
+            android:id="@+id/textHead1"
+            android:layout_width="408dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#FFEA00"
+            android:text="Checkout"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.105" />
+
+
+        <TextView
+            android:id="@+id/checkoutForm_text1"
+            android:layout_width="404dp"
+            android:layout_height="145dp"
+            android:background="#F8F6F6"
+
+            android:backgroundTint="#B8EEF4"
+            android:textColor="#434141"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.261" />
+
+        <TextView
+            android:id="@+id/checkoutForm_text5"
+            android:layout_width="225dp"
+            android:layout_height="36dp"
+            android:background="#CDECFA"
+            android:text="@string/Checkoutform_text5"
+            android:textColor="#0C0C0C"
+            android:textSize="29sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581" />
+
+        <TextView
+            android:id="@+id/checkoutForm_text6"
+            android:layout_width="354dp"
+            android:layout_height="52dp"
+            android:background="#CDECFA"
+            android:text="@string/Checkoutform_text6"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.681"
+            tools:textColor="#252323" />
+
+        <TextView
+            android:id="@+id/checkoutForm_text7"
+            android:layout_width="389dp"
+            android:layout_height="54dp"
+            android:background="#CDECFA"
+            android:text="@string/Checkoutform_text7"
+            android:textColor="#090606"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.79" />
+
+        <TextView
+            android:id="@+id/checkoutForm_text8"
+            android:layout_width="193dp"
+            android:layout_height="28dp"
+
+            android:text="@string/Checkoutform_text8"
+            android:textColor="#070707"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
+
+        <EditText
+            android:id="@+id/inpAddform_4"
+            android:layout_width="146dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ex:South"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.879"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inpAddform_7"
+            android:layout_width="389dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.719" />
+
+        <Button
+            android:id="@+id/btnProceed"
+            android:layout_width="254dp"
+            android:layout_height="48dp"
+            android:background="#00E676"
+            android:text="Proceed to Pay"
+            android:textSize="20sp"
+            app:backgroundTint="#2979FF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.452"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.939"
+            app:strokeColor="#00E676" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="400dp"
+            android:layout_height="4dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.829" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="184dp"
+            android:layout_height="38dp"
+            android:text="Today  OR"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.509" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="169dp"
+            android:layout_height="37dp"
+            android:text="Tommorrow"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51" />
+
+        <TextView
+            android:id="@+id/editform8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.234" />
+
+        <TextView
+            android:id="@+id/editform9"
+            android:layout_width="42dp"
+            android:layout_height="23dp"
+            android:text="2"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.292" />
+
+        <TextView
+            android:id="@+id/editform10"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="3"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.262"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.293" />
+
+        <TextView
+            android:id="@+id/editform11"
+            android:layout_width="69dp"
+            android:layout_height="25dp"
+            android:text="4"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.293" />
+
+        <TextView
+            android:id="@+id/editform13"
+            android:layout_width="80dp"
+            android:layout_height="22dp"
+            android:text="6"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.055"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.351" />
+
+        <TextView
+            android:id="@+id/editform14"
+            android:layout_width="182dp"
+            android:layout_height="29dp"
+            android:text="7"
+            android:textColor="#3D5AFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35" />
+
+        <TextView
+            android:id="@+id/editform12"
+            android:layout_width="99dp"
+            android:layout_height="31dp"
+            android:text="5"
+            android:textColor="#2979FF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.287" />
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="99dp"
+            android:layout_height="35dp"
+            android:background="#FF1744"
+            android:backgroundTint="#76FF03"
+            android:text="Change"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.948"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.357" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

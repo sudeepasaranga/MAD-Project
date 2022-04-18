@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Food Delivery App</string>
+    <string name="addShipping">Add Shipping Address</string>
+
+    <string name="Addform_text1"><b>Full Name</b></string>
+    <string name="Addform_text2"><b>Code</b></string>
+    <string name="Addform_text3"><b>Phone Number</b></string>
+    <string name="Addform_text4"><b>Province/Region</b></string>
+    <string name="Addform_text5"><b>City</b></string>
+    <string name="Addform_text6"><b>Zone</b></string>
+    <string name="Addform_text7"><b>Address</b></string>
+    <string name="Addinput_text1"><b>Ex:Saman perera</b></string>
+    <string name="Addinput_text2"><b>94</b></string>
+    <string name="Addinput_text3"><b>Ex:773423345</b></string>
+    <string name="Addinput_text4"><b>South</b></string>
+    <string name="Addinput_text5"><b>Matara</b></string>
+    <string name="Addinput_text6"><b>Matara</b></string>
+    <string name="Addinput_text7"><b>Ex:No.23,Dharmapala Mawatha, Matara.</b></string>
+    <string name="addDetails">Save Details</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_mobile">Please Enter Valid Number</string>
+    <string name="invalid_code">Please Enter Valid Code</string>
+    <string name="invalid_province">Please Enter Valid  Province</string>
+    <string name="invalid_city">Please Enter Valid City</string>
+    <string name="invalid_zone">Please Enter Valid Zone</string>
+    <string name="invalid_address">Please Enter Valid address</string>
+
+
+
+    <string name="bolded_text"><b>New Product</b></string>
+    <string name="bolded_text2"><b>Product Admin</b></string>
+    <string name="bolded_text3"><b>ID</b></string>
+    <string name="bolded_text4"><b>Name</b></string>
+    <string name="bolded_text5"><b>Price</b></string>
+    <string name="bolded_text6"><b>Description</b></string>
+    <string name="bolded_text7"><b>Categories</b></string>
+    <string name="bolded_text8"><b>Image</b></string>
+    <string name="bolded_text9"><b>Add</b></string>
+    <string name="bolded_text10"><b>Type ID</b></string>
+    <string name="bolded_text11"><b>ID - 1</b></string>
+    <string name="bolded_text12"><b>Chicken Pizza</b></string>
+    <string name="bolded_text13"><b>It is made using grilled chicken.</b></string>
+    <string name="bolded_text14"><b>Rs. 1750.00</b></string>
+    <string name="bolded_text15"><b>ID - 2</b></string>
+    <string name="bolded_text16"><b>Sausage Pizza</b></string>
+    <string name="bolded_text17"><b>It is made using slices of sausage and chicken.</b></string>
+    <string name="bolded_text18"><b>Rs. 1550.00</b></string>
+    <string name="bolded_text19"><b>ID - 3</b></string>
+    <string name="bolded_text20"><b>Burger</b></string>
+    <string name="bolded_text21"><b>It is made using lean of chicken,egg.</b></string>
+    <string name="bolded_text22"><b>Rs. 250.00</b></string>
+    <string name="bolded_text23"><b>Edit Product</b></string>
+    <string name="bolded_text24"><b>Choose Other</b></string>
+    <string name="bolded_text25"><b>Update</b></string>
+    <string name="bolded_text26"><b>New Category</b></string>
+    <string name="bolded_text27"><b>Most Popular</b></string>
+    <string name="bolded_text28"><b>Vegitable Pizza</b></string>
+    <string name="bolded_text29"><b>It is made with vairous vegitables and gives with cheese</b></string>
+    <string name="bolded_text30"><b>Rs. 1250.00</b></string>
+    <string name="bolded_text31"><b>Mashroom Pizza</b></string>
+    <string name="bolded_text32"><b>It is made with fried mashrooms with cheese.</b></string>
+    <string name="bolded_text33"><b>Rs. 1350.00</b></string>
+
+
+    <string-array name="names">
+        <item>Select(category)</item>
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Kottu</item>
+    </string-array>
+
+</resources>
